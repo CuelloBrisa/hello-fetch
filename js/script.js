@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
       user.birthday = birthday.toLocaleDateString('es-AR');
       // creamos una fila
       let row  = document.createElement('tr');
-      for (let key in user) {
+      for (let key in user) { 
         // agregamos una columna por cada propiedad
         let col = document.createElement('td');
         col.innerHTML = user[key];
